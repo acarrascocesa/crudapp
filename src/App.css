@@ -1,0 +1,60 @@
+.App {
+    padding-bottom: 60px;
+}
+
+.users__container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0001;
+    backdrop-filter: blur(1.5px);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+}
+
+.disable__form {
+    display: none;
+}
+
+.App_container-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    color: aquamarine;
+}
+
+.App__btn {
+    width: 100%;
+    max-width: 200px;
+    background-color: #555a88;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 100ms ease box-shadow 150ms ease;
+
+}
+
+.App__btn:hover {
+    transform: scale(1.04);
+    transition: transform 100ms ease box-shadow 150ms ease;
+    box-shadow: 0 0 10px #0005;
+}
